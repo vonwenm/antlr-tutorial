@@ -1,0 +1,9 @@
+[0m[[0mdebug[0m] [0mRunning TaskDef(GroovyTestRunner, sbt.AnnotatedFingerprintWrapper@425f79af, false, [SuiteSelector])[0m
+[0m[[0mdebug[0m] [0mRunning TaskDef(FieldTest, sbt.AnnotatedFingerprintWrapper@425f79af, false, [SuiteSelector])[0m
+[0m[[0mdebug[0m] [0mSummary for JUnit not available.[0m
+[0m[[31merror[0m] [0mFailed: Total 2, Failed 1, Errors 0, Passed 1[0m
+[0m[[0mdebug[0m] [0mPassed tests:[0m
+[0m[[0mdebug[0m] [0m	FieldTest[0m
+[0m[[31merror[0m] [0mFailed tests:[0m
+[0m[[31merror[0m] [0m	GroovyTestRunner[0m
+[0m[[31merror[0m] [0m(test:[31mtest[0m) sbt.TestsFailedException: Tests unsuccessful[0m

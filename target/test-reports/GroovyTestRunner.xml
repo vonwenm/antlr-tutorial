@@ -1,0 +1,77 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<testsuite hostname="SanFrancisco" name="GroovyTestRunner" tests="1" errors="0" failures="1" time="-0.001">
+                <properties> <property name="jline.esc.timeout" value="0"/><property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/><property name="sun.boot.library.path" value="C:\Program Files\Java\jdk7\jre\bin"/><property name="java.vm.version" value="24.51-b03"/><property name="java.vm.vendor" value="Oracle Corporation"/><property name="java.vendor.url" value="http://java.oracle.com/"/><property name="path.separator" value=";"/><property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/><property name="file.encoding.pkg" value="sun.io"/><property name="user.country" value="GB"/><property name="user.script" value=""/><property name="sun.java.launcher" value="SUN_STANDARD"/><property name="sun.os.patch.level" value=""/><property name="java.vm.specification.name" value="Java Virtual Machine Specification"/><property name="user.dir" value="C:\Users\Marcelle\visualize\ant4tut"/><property name="java.runtime.version" value="1.7.0_51-b13"/><property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/><property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk7\jre\lib\endorsed"/><property name="os.arch" value="amd64"/><property name="java.io.tmpdir" value="C:\Users\Marcelle\AppData\Local\Temp\"/><property name="line.separator" value="
+"/><property name="java.vm.specification.vendor" value="Oracle Corporation"/><property name="user.variant" value=""/><property name="os.name" value="Windows 8"/><property name="sun.jnu.encoding" value="Cp1252"/><property name="java.library.path" value="C:\Program Files\Java\jdk7\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\maven\bin;c:\Rtools\bin;c:\Rtools\gcc-4.6.3\bin;C:\Python227\;C:\Python227\Scripts;C:\Program Files\R\R-3.0.0\bin\i386;C:\app\oracle\product\12.1.0\dbhome_1\bin;C:\Program Files\Java\jdk7\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Git\cmd;C:\Program Files (x86)\Git\bin;C:\Program Files\nodejs\;C:\Program Files (x86)\scala\\bin;C:\Program Files (x86)\MySQL\MySQL Utilities 1.3.6\;C:\play;C:\Program Files (x86)\sbt\bin;C:\activator;C:\Program Files (x86)\Groovy\Groovy221\bin;C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\;C:\Program Files\Microsoft SQL Server\110\Tools\Binn\;C:\Program Files\mongodb\bin;C:\app\oracle\product\12.1.0\dbhome_1\BIN;C:\Program Files\TortoiseGit\bin;C:\opscode\chef\bin;C:\opscode\chef\embedded\bin;C:\Program Files (x86)\OpenSSH\bin;C:\Program Files (x86)\GTK2-Runtime\bin;C:\Anaconda;C:\Anaconda\Scripts;C:\Program Files (x86)\QuickTime\QTSystem\;C:\HashiCorp\Vagrant\bin;C:\Program Files\SlikSvn\bin\;C:\Program Files (x86)\CMake\bin;C:\Program Files (x86)\Microsoft SDKs\TypeScript\1.0\;C:\Program Files (x86)\Mercurial\;C:\Users\Marcelle\bin;C:\OpenGrADS\Contents\Cygwin\Versions\2.0.2.oga.1\i686;C:\ndfd\degrib\bin;C:\ANT\BIN;C:\GRADLE\BIN;C:\Ruby200-x64\bin;C:\Users\Marcelle\AppData\Roaming\npm;C:\devkit\;C:\Program Files (x86)\gtk-3.8.1;C:\Program Files (x86)\gtk-3.8.1;C:\Program Files (x86)\Nmap;D:\pHash\bin\;.;;."/><property name="java.specification.name" value="Java Platform API Specification"/><property name="java.class.version" value="51.0"/><property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/><property name="os.version" value="6.2"/><property name="user.home" value="C:\Users\Marcelle"/><property name="user.timezone" value="Europe/London"/><property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/><property name="file.encoding" value="Cp1252"/><property name="java.specification.version" value="1.7"/><property name="sbt.log.format" value="true"/><property name="java.class.path" value="C:\Program Files (x86)\sbt\bin\sbt-launch.jar"/><property name="user.name" value="Marcelle"/><property name="jline.shutdownhook" value="false"/><property name="java.vm.specification.version" value="1.7"/><property name="sun.java.command" value="xsbt.boot.Boot"/><property name="java.home" value="C:\Program Files\Java\jdk7\jre"/><property name="sun.arch.data.model" value="64"/><property name="user.language" value="en"/><property name="java.specification.vendor" value="Oracle Corporation"/><property name="awt.toolkit" value="sun.awt.windows.WToolkit"/><property name="java.vm.info" value="mixed mode"/><property name="java.version" value="1.7.0_51"/><property name="java.ext.dirs" value="C:\Program Files\Java\jdk7\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/><property name="sun.boot.class.path" value="C:\Program Files\Java\jdk7\jre\lib\resources.jar;C:\Program Files\Java\jdk7\jre\lib\rt.jar;C:\Program Files\Java\jdk7\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk7\jre\lib\jsse.jar;C:\Program Files\Java\jdk7\jre\lib\jce.jar;C:\Program Files\Java\jdk7\jre\lib\charsets.jar;C:\Program Files\Java\jdk7\jre\lib\jfr.jar;C:\Program Files\Java\jdk7\jre\classes"/><property name="java.vendor" value="Oracle Corporation"/><property name="file.separator" value="\"/><property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/><property name="sun.io.unicode.encoding" value="UnicodeLittle"/><property name="sun.cpu.endian" value="little"/><property name="sun.desktop" value="windows"/><property name="sun.cpu.isalist" value="amd64"/>
+        </properties>
+                <testcase classname="GroovyTestRunner" name="runGroovyTests" time="-0.001"> <failure message="
+Expected: &lt;0&gt;
+     got: &lt;1&gt;
+" type="java.lang.AssertionError">java.lang.AssertionError: 
+Expected: &lt;0&gt;
+     got: &lt;1&gt;
+
+	at org.junit.Assert.assertThat(Assert.java:780)
+	at org.junit.Assert.assertThat(Assert.java:738)
+	at GroovyTestRunner.runGroovyTests(GroovyTestRunner.scala:17)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:45)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:15)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:42)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:20)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:263)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:68)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:47)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:231)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:60)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:229)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:50)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:222)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:300)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:24)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:231)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:60)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:229)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:50)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:222)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:300)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:157)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:136)
+	at com.novocode.junit.JUnitRunner.run(JUnitRunner.java:90)
+	at sbt.RunnerWrapper$1.runRunner2(FrameworkWrapper.java:223)
+	at sbt.RunnerWrapper$1.execute(FrameworkWrapper.java:236)
+	at sbt.TestRunner.runTest$1(TestFramework.scala:84)
+	at sbt.TestRunner.run(TestFramework.scala:94)
+	at sbt.TestFramework$$anon$2$$anonfun$$init$$1$$anonfun$apply$8.apply(TestFramework.scala:219)
+	at sbt.TestFramework$$anon$2$$anonfun$$init$$1$$anonfun$apply$8.apply(TestFramework.scala:219)
+	at sbt.TestFramework$.sbt$TestFramework$$withContextLoader(TestFramework.scala:207)
+	at sbt.TestFramework$$anon$2$$anonfun$$init$$1.apply(TestFramework.scala:219)
+	at sbt.TestFramework$$anon$2$$anonfun$$init$$1.apply(TestFramework.scala:219)
+	at sbt.TestFunction.apply(TestFramework.scala:224)
+	at sbt.Tests$$anonfun$7.apply(Tests.scala:196)
+	at sbt.Tests$$anonfun$7.apply(Tests.scala:196)
+	at sbt.std.Transform$$anon$3$$anonfun$apply$2.apply(System.scala:45)
+	at sbt.std.Transform$$anon$3$$anonfun$apply$2.apply(System.scala:45)
+	at sbt.std.Transform$$anon$4.work(System.scala:64)
+	at sbt.Execute$$anonfun$submit$1$$anonfun$apply$1.apply(Execute.scala:237)
+	at sbt.Execute$$anonfun$submit$1$$anonfun$apply$1.apply(Execute.scala:237)
+	at sbt.ErrorHandling$.wideConvert(ErrorHandling.scala:18)
+	at sbt.Execute.work(Execute.scala:244)
+	at sbt.Execute$$anonfun$submit$1.apply(Execute.scala:237)
+	at sbt.Execute$$anonfun$submit$1.apply(Execute.scala:237)
+	at sbt.ConcurrentRestrictions$$anon$4$$anonfun$1.apply(ConcurrentRestrictions.scala:160)
+	at sbt.CompletionService$$anon$2.call(CompletionService.scala:30)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:744)
+</failure>
+                    </testcase>
+                <system-out></system-out>
+                <system-err></system-err>
+                </testsuite>

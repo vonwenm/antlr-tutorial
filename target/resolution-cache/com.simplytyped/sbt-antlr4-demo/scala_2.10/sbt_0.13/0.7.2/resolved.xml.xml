@@ -4,7 +4,7 @@
 		module="sbt-antlr4-demo"
 		revision="0.7.2"
 		status="integration"
-		publication="20140629233053"
+		publication="20140630004815"
 		e:scalaVersion="2.10" e:sbtVersion="0.13"
 	>
 		<description>
@@ -33,9 +33,15 @@
 		<artifact name="sbt-antlr4-demo" type="doc" ext="jar" conf="docs" e:classifier="javadoc"/>
 	</publications>
 	<dependencies>
-		<dependency org="org.scala-lang" name="scala-compiler" rev="2.10.4" conf="scala-tool->default,optional(default)"/>
-		<dependency org="org.scala-lang" name="scala-library" rev="2.10.4" conf="scala-tool->default,optional(default);provided->default(compile)"/>
+		<dependency org="org.scala-lang" name="scala-compiler" rev="2.10.1" conf="scala-tool->default,optional(default)"/>
+		<dependency org="org.scala-lang" name="scala-library" rev="2.10.1" conf="scala-tool->default,optional(default);provided->default(compile)"/>
 		<dependency org="org.scala-sbt" name="sbt" rev="0.13.5" conf="provided->default(compile)"/>
+		<dependency org="org.spockframework" name="spock-core" rev="0.7-groovy-2.0" conf="test->default(compile)"/>
+		<dependency org="org.gebish" name="geb-core" rev="0.9.0" conf="test->default(compile)"/>
+		<dependency org="org.gebish" name="geb-spock" rev="0.9.0" conf="test->default(compile)"/>
+		<dependency org="org.seleniumhq.selenium" name="selenium-java" rev="2.32.0" conf="test->default(compile)"/>
+		<dependency org="com.novocode" name="junit-interface" rev="0.10-M4" conf="test->default(compile)"/>
 		<dependency org="org.antlr" name="antlr4" rev="4.3" conf="compile->default(compile)"/>
+		<dependency org="org.softnetwork.sbt.plugins" name="sbt-groovy" rev="0.1" conf="compile->default(compile)" e:scalaVersion="2.10" e:sbtVersion="0.13"/>
 	</dependencies>
 </ivy-module>

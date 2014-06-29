@@ -5,34 +5,51 @@
 [0m[[0mdebug[0m] [0m	refresh = false[0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'compile'[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies for default#ant4tut-build;0.1-SNAPSHOT [compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#ant4tut-build;0.1-SNAPSHOT->org.codehaus.groovy#groovy-all;2.1.3 [compile->default(compile)][0m
+[0m[[0minfo[0m] [0mResolving org.codehaus.groovy#groovy-all;2.1.3 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.codehaus.groovy#groovy-all;2.1.3 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.codehaus.groovy#groovy-all;2.1.3[0m
+[0m[[0mdebug[0m] [0m	typesafe-ivy-releases: revision in cache: org.codehaus.groovy#groovy-all;2.1.3[0m
+[0m[[0mdebug[0m] [0m	found org.codehaus.groovy#groovy-all;2.1.3 in public[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#ant4tut-build;0.1-SNAPSHOT->org.codehaus.groovy#groovy-all;2.1.3 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#ant4tut-build;0.1-SNAPSHOT->org.codehaus.groovy#groovy-all;2.1.3 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#ant4tut-build;0.1-SNAPSHOT->org.codehaus.groovy#groovy-all;2.1.3 [compile->master][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies default#ant4tut-build;0.1-SNAPSHOT->com.simplytyped#sbt-antlr4;0.7.2 [compile->default(compile)][0m
 [0m[[0minfo[0m] [0mResolving com.simplytyped#sbt-antlr4;0.7.2 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: com.simplytyped#sbt-antlr4;0.7.2 {compile=[default(compile)]}[0m
-[0m[[0mdebug[0m] [0m		tried http://repo.typesafe.com/typesafe/ivy-releases/com.simplytyped/sbt-antlr4/scala_2.10/sbt_0.13/0.7.2/ivys/ivy.xml[0m
-[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=http://repo.typesafe.com/typesafe/ivy-releases/com.simplytyped/sbt-antlr4/scala_2.10/sbt_0.13/0.7.2/ivys/ivy.xml[0m
-[0m[[0mdebug[0m] [0m	typesafe-ivy-releases: no ivy file found for com.simplytyped#sbt-antlr4;0.7.2[0m
-[0m[[0mdebug[0m] [0m		tried http://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.simplytyped/sbt-antlr4/scala_2.10/sbt_0.13/0.7.2/ivys/ivy.xml[0m
-[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=http://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.simplytyped/sbt-antlr4/scala_2.10/sbt_0.13/0.7.2/ivys/ivy.xml[0m
-[0m[[0mdebug[0m] [0m	sbt-plugin-releases: no ivy file found for com.simplytyped#sbt-antlr4;0.7.2[0m
-[0m[[0mdebug[0m] [0m		tried C:\Users\Marcelle\.ivy2\local\com.simplytyped\sbt-antlr4\scala_2.10\sbt_0.13\0.7.2\ivys\ivy.xml[0m
-[0m[[0mdebug[0m] [0m	local: found md file for com.simplytyped#sbt-antlr4;0.7.2[0m
-[0m[[0mdebug[0m] [0m		=> C:\Users\Marcelle\.ivy2\local\com.simplytyped\sbt-antlr4\scala_2.10\sbt_0.13\0.7.2\ivys\ivy.xml (0.7.2)[0m
-[0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.simplytyped#sbt-antlr4;0.7.2!ivy.xml(ivy.original)[0m
-[0m[[0mdebug[0m] [0m	found com.simplytyped#sbt-antlr4;0.7.2 in local[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: com.simplytyped#sbt-antlr4;0.7.2[0m
+[0m[[0mdebug[0m] [0m	typesafe-ivy-releases: revision in cache: com.simplytyped#sbt-antlr4;0.7.2[0m
+[0m[[0mdebug[0m] [0m	found com.simplytyped#sbt-antlr4;0.7.2 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#ant4tut-build;0.1-SNAPSHOT->org.softnetwork.sbt.plugins#sbt-groovy;0.1 [compile->default(compile)][0m
+[0m[[0minfo[0m] [0mResolving org.softnetwork.sbt.plugins#sbt-groovy;0.1 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.softnetwork.sbt.plugins#sbt-groovy;0.1 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.softnetwork.sbt.plugins#sbt-groovy;0.1[0m
+[0m[[0mdebug[0m] [0m	typesafe-ivy-releases: revision in cache: org.softnetwork.sbt.plugins#sbt-groovy;0.1[0m
+[0m[[0mdebug[0m] [0m	found org.softnetwork.sbt.plugins#sbt-groovy;0.1 in sbt-chain[0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'runtime'[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies for default#ant4tut-build;0.1-SNAPSHOT [runtime][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies for default#ant4tut-build;0.1-SNAPSHOT [compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#ant4tut-build;0.1-SNAPSHOT->org.codehaus.groovy#groovy-all;2.1.3 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#ant4tut-build;0.1-SNAPSHOT->org.codehaus.groovy#groovy-all;2.1.3 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#ant4tut-build;0.1-SNAPSHOT->org.codehaus.groovy#groovy-all;2.1.3 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#ant4tut-build;0.1-SNAPSHOT->org.codehaus.groovy#groovy-all;2.1.3 [compile->master][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies default#ant4tut-build;0.1-SNAPSHOT->com.simplytyped#sbt-antlr4;0.7.2 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#ant4tut-build;0.1-SNAPSHOT->org.softnetwork.sbt.plugins#sbt-groovy;0.1 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'test'[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies for default#ant4tut-build;0.1-SNAPSHOT [test][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies for default#ant4tut-build;0.1-SNAPSHOT [runtime][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies for default#ant4tut-build;0.1-SNAPSHOT [compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#ant4tut-build;0.1-SNAPSHOT->org.codehaus.groovy#groovy-all;2.1.3 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#ant4tut-build;0.1-SNAPSHOT->org.codehaus.groovy#groovy-all;2.1.3 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#ant4tut-build;0.1-SNAPSHOT->org.codehaus.groovy#groovy-all;2.1.3 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#ant4tut-build;0.1-SNAPSHOT->org.codehaus.groovy#groovy-all;2.1.3 [compile->master][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies default#ant4tut-build;0.1-SNAPSHOT->com.simplytyped#sbt-antlr4;0.7.2 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#ant4tut-build;0.1-SNAPSHOT->org.softnetwork.sbt.plugins#sbt-groovy;0.1 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'provided'[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies for default#ant4tut-build;0.1-SNAPSHOT [provided][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies default#ant4tut-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [provided->default(compile)][0m
 [0m[[0minfo[0m] [0mResolving org.scala-lang#scala-library;2.10.4 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@4664107e[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@152cd3d[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.scala-lang#scala-library;2.10.4[0m
 [0m[[0mdebug[0m] [0m	typesafe-ivy-releases: revision in cache: org.scala-lang#scala-library;2.10.4[0m
 [0m[[0mdebug[0m] [0m	found org.scala-lang#scala-library;2.10.4 in sbt-chain[0m
@@ -590,7 +607,12 @@
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'compile-internal'[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies for default#ant4tut-build;0.1-SNAPSHOT [compile-internal][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies for default#ant4tut-build;0.1-SNAPSHOT [compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#ant4tut-build;0.1-SNAPSHOT->org.codehaus.groovy#groovy-all;2.1.3 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#ant4tut-build;0.1-SNAPSHOT->org.codehaus.groovy#groovy-all;2.1.3 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#ant4tut-build;0.1-SNAPSHOT->org.codehaus.groovy#groovy-all;2.1.3 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#ant4tut-build;0.1-SNAPSHOT->org.codehaus.groovy#groovy-all;2.1.3 [compile->master][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies default#ant4tut-build;0.1-SNAPSHOT->com.simplytyped#sbt-antlr4;0.7.2 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#ant4tut-build;0.1-SNAPSHOT->org.softnetwork.sbt.plugins#sbt-groovy;0.1 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies for default#ant4tut-build;0.1-SNAPSHOT [optional][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies for default#ant4tut-build;0.1-SNAPSHOT [provided][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies default#ant4tut-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [provided->default(compile)][0m
@@ -921,14 +943,24 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies for default#ant4tut-build;0.1-SNAPSHOT [runtime-internal][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies for default#ant4tut-build;0.1-SNAPSHOT [runtime][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies for default#ant4tut-build;0.1-SNAPSHOT [compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#ant4tut-build;0.1-SNAPSHOT->org.codehaus.groovy#groovy-all;2.1.3 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#ant4tut-build;0.1-SNAPSHOT->org.codehaus.groovy#groovy-all;2.1.3 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#ant4tut-build;0.1-SNAPSHOT->org.codehaus.groovy#groovy-all;2.1.3 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#ant4tut-build;0.1-SNAPSHOT->org.codehaus.groovy#groovy-all;2.1.3 [compile->master][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies default#ant4tut-build;0.1-SNAPSHOT->com.simplytyped#sbt-antlr4;0.7.2 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#ant4tut-build;0.1-SNAPSHOT->org.softnetwork.sbt.plugins#sbt-groovy;0.1 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies for default#ant4tut-build;0.1-SNAPSHOT [optional][0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'test-internal'[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies for default#ant4tut-build;0.1-SNAPSHOT [test-internal][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies for default#ant4tut-build;0.1-SNAPSHOT [test][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies for default#ant4tut-build;0.1-SNAPSHOT [runtime][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies for default#ant4tut-build;0.1-SNAPSHOT [compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#ant4tut-build;0.1-SNAPSHOT->org.codehaus.groovy#groovy-all;2.1.3 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#ant4tut-build;0.1-SNAPSHOT->org.codehaus.groovy#groovy-all;2.1.3 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#ant4tut-build;0.1-SNAPSHOT->org.codehaus.groovy#groovy-all;2.1.3 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#ant4tut-build;0.1-SNAPSHOT->org.codehaus.groovy#groovy-all;2.1.3 [compile->master][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies default#ant4tut-build;0.1-SNAPSHOT->com.simplytyped#sbt-antlr4;0.7.2 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#ant4tut-build;0.1-SNAPSHOT->org.softnetwork.sbt.plugins#sbt-groovy;0.1 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies for default#ant4tut-build;0.1-SNAPSHOT [optional][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies for default#ant4tut-build;0.1-SNAPSHOT [provided][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies default#ant4tut-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [provided->default(compile)][0m
@@ -1308,8 +1340,9 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies default#ant4tut-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [scala-tool->optional(default)][0m
 [0m[[0mdebug[0m] [0m	resolved ivy file produced in cache[0m
 [0m[[0mdebug[0m] [0m:: downloading artifacts ::[0m
-[0m[[0mdebug[0m] [0m		tried C:\Users\Marcelle\.ivy2\local\com.simplytyped\sbt-antlr4\scala_2.10\sbt_0.13\0.7.2\jars\sbt-antlr4.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.codehaus.groovy#groovy-all;2.1.3!groovy-all.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.simplytyped#sbt-antlr4;0.7.2!sbt-antlr4.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.softnetwork.sbt.plugins#sbt-groovy;0.1!sbt-groovy.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang#scala-library;2.10.4!scala-library.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-sbt#sbt;0.13.5!sbt.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-sbt#main;0.13.5!main.jar[0m
@@ -1358,7 +1391,7 @@
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-sbt#apply-macro;0.13.5!apply-macro.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang#jline;2.10.4!jline.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.fusesource.jansi#jansi;1.4!jansi.jar[0m
-[0m[[0mdebug[0m] [0m:: resolution report :: resolve 4088ms :: artifacts dl 101ms[0m
+[0m[[0mdebug[0m] [0m:: resolution report :: resolve 2271ms :: artifacts dl 100ms[0m
 [0m[[0mdebug[0m] [0m	report for default#ant4tut-build;0.1-SNAPSHOT compile produced in C:\Users\Marcelle\visualize\ant4tut\project\target\resolution-cache\reports\default-ant4tut-build-compile.xml[0m
 [0m[[0mdebug[0m] [0m	report for default#ant4tut-build;0.1-SNAPSHOT runtime produced in C:\Users\Marcelle\visualize\ant4tut\project\target\resolution-cache\reports\default-ant4tut-build-runtime.xml[0m
 [0m[[0mdebug[0m] [0m	report for default#ant4tut-build;0.1-SNAPSHOT test produced in C:\Users\Marcelle\visualize\ant4tut\project\target\resolution-cache\reports\default-ant4tut-build-test.xml[0m
@@ -1372,5 +1405,5 @@
 [0m[[0mdebug[0m] [0m	report for default#ant4tut-build;0.1-SNAPSHOT docs produced in C:\Users\Marcelle\visualize\ant4tut\project\target\resolution-cache\reports\default-ant4tut-build-docs.xml[0m
 [0m[[0mdebug[0m] [0m	report for default#ant4tut-build;0.1-SNAPSHOT pom produced in C:\Users\Marcelle\visualize\ant4tut\project\target\resolution-cache\reports\default-ant4tut-build-pom.xml[0m
 [0m[[0mdebug[0m] [0m	report for default#ant4tut-build;0.1-SNAPSHOT scala-tool produced in C:\Users\Marcelle\visualize\ant4tut\project\target\resolution-cache\reports\default-ant4tut-build-scala-tool.xml[0m
-[0m[[0mdebug[0m] [0m	resolve done (4088ms resolve - 101ms download)[0m
+[0m[[0mdebug[0m] [0m	resolve done (2271ms resolve - 100ms download)[0m
 [0m[[0minfo[0m] [0mDone updating.[0m

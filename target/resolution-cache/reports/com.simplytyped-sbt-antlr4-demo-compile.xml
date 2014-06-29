@@ -9,8 +9,19 @@
 		extra-scalaVersion="2.10"
 		conf="compile"
 		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool"
-		date="20140629233053"/>
+		date="20140630004815"/>
 	<dependencies>
+		<module organisation="org.softnetwork.sbt.plugins" name="sbt-groovy">
+			<revision name="0.1" status="release" pubdate="20140630001011" resolver="sbt-chain" artresolver="sbt-chain" extra-sbtVersion="0.13" extra-scalaVersion="2.10" downloaded="false" searched="false" default="false" conf="default(compile), compile" position="6">
+				<metadata-artifact status="no" details="" size="1492" time="0" location="C:\Users\Marcelle\.ivy2\cache\scala_2.10\sbt_0.13\org.softnetwork.sbt.plugins\sbt-groovy\ivy-0.1.xml" searched="false" origin-is-local="true" origin-location="C:\Users\Marcelle\.ivy2\local\org.softnetwork.sbt.plugins\sbt-groovy\scala_2.10\sbt_0.13\0.1\ivys\ivy.xml"/>
+				<caller organisation="com.simplytyped" name="sbt-antlr4-demo" conf="compile" rev="0.1" rev-constraint-default="0.1" rev-constraint-dynamic="0.1" callerrev="0.7.2" extra-sbtVersion="0.13" extra-scalaVersion="2.10"/>
+				<artifacts>
+					<artifact name="sbt-groovy" type="jar" ext="jar" status="no" details="" size="46303" time="0" location="C:\Users\Marcelle\.ivy2\local\org.softnetwork.sbt.plugins\sbt-groovy\scala_2.10\sbt_0.13\0.1\jars\sbt-groovy.jar">
+						<origin-location is-local="true" location="C:\Users\Marcelle\.ivy2\local\org.softnetwork.sbt.plugins\sbt-groovy\scala_2.10\sbt_0.13\0.1\jars\sbt-groovy.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
 		<module organisation="org.antlr" name="antlr4">
 			<revision name="4.3" status="release" pubdate="20140619032550" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="0">
 				<metadata-artifact status="no" details="" size="4936" time="0" location="C:\Users\Marcelle\.ivy2\cache\org.antlr\antlr4\ivy-4.3.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/org/antlr/antlr4/4.3/antlr4-4.3.pom"/>

@@ -4,7 +4,7 @@
 		module="ant4tut-build"
 		revision="0.1-SNAPSHOT"
 		status="integration"
-		publication="20140629232937"
+		publication="20140630003744"
 		e:scalaVersion="2.10" e:sbtVersion="0.13"
 	>
 		<description>
@@ -36,6 +36,8 @@
 		<dependency org="org.scala-lang" name="scala-compiler" rev="2.10.4" conf="scala-tool->default,optional(default)"/>
 		<dependency org="org.scala-lang" name="scala-library" rev="2.10.4" conf="scala-tool->default,optional(default);provided->default(compile)"/>
 		<dependency org="org.scala-sbt" name="sbt" rev="0.13.5" conf="provided->default(compile)"/>
+		<dependency org="org.codehaus.groovy" name="groovy-all" rev="2.1.3" conf="compile->default(compile)"/>
 		<dependency org="com.simplytyped" name="sbt-antlr4" rev="0.7.2" conf="compile->default(compile)" e:scalaVersion="2.10" e:sbtVersion="0.13"/>
+		<dependency org="org.softnetwork.sbt.plugins" name="sbt-groovy" rev="0.1" conf="compile->default(compile)" e:scalaVersion="2.10" e:sbtVersion="0.13"/>
 	</dependencies>
 </ivy-module>
