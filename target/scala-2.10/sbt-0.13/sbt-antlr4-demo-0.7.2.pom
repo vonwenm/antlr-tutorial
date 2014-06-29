@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://maven.apache.org/POM/4.0.0">
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>com.simplytyped</groupId>
+    <artifactId>sbt-antlr4-demo</artifactId>
+    <packaging>jar</packaging>
+    <description>sbt-antlr4-demo</description>
+    <version>0.7.2</version>
+    <name>sbt-antlr4-demo</name>
+    <organization>
+        <name>com.simplytyped</name>
+    </organization>
+    <properties>
+        <sbtVersion>0.13</sbtVersion>
+        <scalaVersion>2.10</scalaVersion>
+    </properties>
+    <dependencies>
+        <dependency>
+            <groupId>org.scala-lang</groupId>
+            <artifactId>scala-library</artifactId>
+            <version>2.10.4</version>
+            <scope>provided</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.scala-sbt</groupId>
+            <artifactId>sbt</artifactId>
+            <version>0.13.5</version>
+            <scope>provided</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.antlr</groupId>
+            <artifactId>antlr4</artifactId>
+            <version>4.3</version>
+        </dependency>
+    </dependencies>
+</project>

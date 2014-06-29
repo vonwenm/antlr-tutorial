@@ -1,0 +1,11 @@
+[0m[[0minfo[0m] [0mPackaging C:\Users\Marcelle\visualize\ant4tut\target\scala-2.10\sbt-0.13\sbt-antlr4-demo-0.7.2-sources.jar ...[0m
+[0m[[0mdebug[0m] [0mInput file mappings:[0m
+[0m[[0mdebug[0m] [0m	example.field[0m
+[0m[[0mdebug[0m] [0m	  C:\Users\Marcelle\visualize\ant4tut\src\main\resources\example.field[0m
+[0m[[0mdebug[0m] [0m	App.java[0m
+[0m[[0mdebug[0m] [0m	  C:\Users\Marcelle\visualize\ant4tut\src\main\java\App.java[0m
+[0m[[0mdebug[0m] [0m	Game.java[0m
+[0m[[0mdebug[0m] [0m	  C:\Users\Marcelle\visualize\ant4tut\src\main\java\Game.java[0m
+[0m[[0mdebug[0m] [0m	GameFactory.java[0m
+[0m[[0mdebug[0m] [0m	  C:\Users\Marcelle\visualize\ant4tut\src\main\java\GameFactory.java[0m
+[0m[[0minfo[0m] [0mDone packaging.[0m

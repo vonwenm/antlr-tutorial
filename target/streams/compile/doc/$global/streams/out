@@ -1,0 +1,40 @@
+[0m[[0minfo[0m] [0mMain Java API documentation to C:\Users\Marcelle\visualize\ant4tut\target\scala-2.10\sbt-0.13\api...[0m
+[0m[[0mdebug[0m] [0mAttempting to call javadoc directly...[0m
+[0m[[0mdebug[0m] [0mcom.sun.tools.javadoc.Main not found with appropriate method signature; forking javadoc instead[0m
+[0m[[0mdebug[0m] [0mForking javadoc: javadoc @C:/Users/Marcelle/AppData/Local/Temp/sbt_ecba3969/argfile[0m
+[0m[[0minfo[0m] [0mLoading source file C:/Users/Marcelle/visualize/ant4tut/src/main/java/App.java...[0m
+[0m[[0minfo[0m] [0mLoading source file C:/Users/Marcelle/visualize/ant4tut/src/main/java/Game.java...[0m
+[0m[[0minfo[0m] [0mLoading source file C:/Users/Marcelle/visualize/ant4tut/src/main/java/GameFactory.java...[0m
+[0m[[0minfo[0m] [0mLoading source file C:/Users/Marcelle/visualize/ant4tut/target/scala-2.10/sbt-0.13/src_managed/main/FieldBaseListener.java...[0m
+[0m[[0minfo[0m] [0mLoading source file C:/Users/Marcelle/visualize/ant4tut/target/scala-2.10/sbt-0.13/src_managed/main/FieldLexer.java...[0m
+[0m[[0minfo[0m] [0mLoading source file C:/Users/Marcelle/visualize/ant4tut/target/scala-2.10/sbt-0.13/src_managed/main/FieldListener.java...[0m
+[0m[[0minfo[0m] [0mLoading source file C:/Users/Marcelle/visualize/ant4tut/target/scala-2.10/sbt-0.13/src_managed/main/FieldParser.java...[0m
+[0m[[0minfo[0m] [0mConstructing Javadoc information...[0m
+[0m[[0minfo[0m] [0mStandard Doclet version 1.7.0_51[0m
+[0m[[0minfo[0m] [0mBuilding tree for all the packages and classes...[0m
+[0m[[0minfo[0m] [0mGenerating C:\Users\Marcelle\visualize\ant4tut\target\scala-2.10\sbt-0.13\api\App.html...[0m
+[0m[[0minfo[0m] [0mGenerating C:\Users\Marcelle\visualize\ant4tut\target\scala-2.10\sbt-0.13\api\FieldBaseListener.html...[0m
+[0m[[0minfo[0m] [0mGenerating C:\Users\Marcelle\visualize\ant4tut\target\scala-2.10\sbt-0.13\api\FieldLexer.html...[0m
+[0m[[0minfo[0m] [0mGenerating C:\Users\Marcelle\visualize\ant4tut\target\scala-2.10\sbt-0.13\api\FieldListener.html...[0m
+[0m[[0minfo[0m] [0mGenerating C:\Users\Marcelle\visualize\ant4tut\target\scala-2.10\sbt-0.13\api\FieldParser.html...[0m
+[0m[[0minfo[0m] [0mGenerating C:\Users\Marcelle\visualize\ant4tut\target\scala-2.10\sbt-0.13\api\FieldParser.BurialContext.html...[0m
+[0m[[0minfo[0m] [0mGenerating C:\Users\Marcelle\visualize\ant4tut\target\scala-2.10\sbt-0.13\api\FieldParser.FieldContext.html...[0m
+[0m[[0minfo[0m] [0mGenerating C:\Users\Marcelle\visualize\ant4tut\target\scala-2.10\sbt-0.13\api\FieldParser.LocationContext.html...[0m
+[0m[[0minfo[0m] [0mGenerating C:\Users\Marcelle\visualize\ant4tut\target\scala-2.10\sbt-0.13\api\FieldParser.PointsContext.html...[0m
+[0m[[0minfo[0m] [0mGenerating C:\Users\Marcelle\visualize\ant4tut\target\scala-2.10\sbt-0.13\api\Game.html...[0m
+[0m[[0minfo[0m] [0mGenerating C:\Users\Marcelle\visualize\ant4tut\target\scala-2.10\sbt-0.13\api\GameFactory.html...[0m
+[0m[[0minfo[0m] [0mGenerating C:\Users\Marcelle\visualize\ant4tut\target\scala-2.10\sbt-0.13\api\package-frame.html...[0m
+[0m[[0minfo[0m] [0mGenerating C:\Users\Marcelle\visualize\ant4tut\target\scala-2.10\sbt-0.13\api\package-summary.html...[0m
+[0m[[0minfo[0m] [0mGenerating C:\Users\Marcelle\visualize\ant4tut\target\scala-2.10\sbt-0.13\api\package-tree.html...[0m
+[0m[[0minfo[0m] [0mGenerating C:\Users\Marcelle\visualize\ant4tut\target\scala-2.10\sbt-0.13\api\constant-values.html...[0m
+[0m[[0minfo[0m] [0mBuilding index for all the packages and classes...[0m
+[0m[[0minfo[0m] [0mGenerating C:\Users\Marcelle\visualize\ant4tut\target\scala-2.10\sbt-0.13\api\overview-tree.html...[0m
+[0m[[0minfo[0m] [0mGenerating C:\Users\Marcelle\visualize\ant4tut\target\scala-2.10\sbt-0.13\api\index-all.html...[0m
+[0m[[0minfo[0m] [0mGenerating C:\Users\Marcelle\visualize\ant4tut\target\scala-2.10\sbt-0.13\api\deprecated-list.html...[0m
+[0m[[0minfo[0m] [0mBuilding index for all classes...[0m
+[0m[[0minfo[0m] [0mGenerating C:\Users\Marcelle\visualize\ant4tut\target\scala-2.10\sbt-0.13\api\allclasses-frame.html...[0m
+[0m[[0minfo[0m] [0mGenerating C:\Users\Marcelle\visualize\ant4tut\target\scala-2.10\sbt-0.13\api\allclasses-noframe.html...[0m
+[0m[[0minfo[0m] [0mGenerating C:\Users\Marcelle\visualize\ant4tut\target\scala-2.10\sbt-0.13\api\index.html...[0m
+[0m[[0minfo[0m] [0mGenerating C:\Users\Marcelle\visualize\ant4tut\target\scala-2.10\sbt-0.13\api\help-doc.html...[0m
+[0m[[0mdebug[0m] [0mjavadoc returned exit code: 0[0m
+[0m[[0minfo[0m] [0mMain Java API documentation successful.[0m

@@ -1,0 +1,4 @@
+[0m[[0minfo[0m] [0m:: delivering :: com.simplytyped#sbt-antlr4-demo;0.7.2 :: 0.7.2 :: release :: Sun Jun 29 23:31:14 BST 2014[0m
+[0m[[0mdebug[0m] [0m	options = status=release pubdate=Sun Jun 29 23:31:14 BST 2014 validate=true resolveDynamicRevisions=true merge=true resolveId=null pubBranch=null[0m
+[0m[[0minfo[0m] [0m	delivering ivy file to C:\Users\Marcelle\visualize\ant4tut\target\scala-2.10\sbt-0.13\ivy-0.7.2.xml[0m
+[0m[[0mdebug[0m] [0m	deliver done (11ms)[0m
